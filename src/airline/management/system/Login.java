@@ -1,19 +1,16 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package airline.management.system;
+
+package airline.management.system;   
 
 import java.awt.*;
-import javax.swing.*;
 import java.awt.event.*;
+import javax.swing.*;
 
 public class Login extends JFrame implements ActionListener {
 
     JButton reset, submit, close;
     JTextField tuserName;
     JPasswordField tPassword;
-
+ 
     public Login() {
 
 //  To set the window background color
@@ -27,7 +24,7 @@ public class Login extends JFrame implements ActionListener {
         JLabel lblPassword = new JLabel("PASSWORD");
 
 // For Setting the height and width, position of the label
-        lblUsername.setBounds(20, 20, 100, 20);
+        lblUsername.setBounds(20, 20, 100, 20); 
         lblPassword.setBounds(20, 60, 100, 20);
 
 //       To add Labels On Screen
