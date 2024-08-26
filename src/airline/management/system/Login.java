@@ -49,7 +49,7 @@ public class Login extends JFrame implements ActionListener {
 
                 add(tuserName);
                 add(tPassword);
- 
+
                 reset.addActionListener(this);
                 add(reset);
 
