@@ -2,6 +2,7 @@
 
 create database airlinemanagementsystem;
 
+
 use airlinemanagementsystem;
 
 
@@ -22,19 +23,19 @@ create table flight(f_code varchar(20), f_name varchar(20), source varchar(40), 
 
 
 
-insert into flight values("1001", "AI-1212", "Delhi", "Mumbai");
-insert into flight values("1002", "AI-1453", "Delhi", "Goa");
-insert into flight values("1003", "AI-1112", "Mumbai", "Chennai");
-insert into flight values("1004", "AI-3222", "Delhi", "Amritsar");
-insert into flight values("1005", "AI-1212", "Delhi", "Ayodhya");
+insert into flight values("1001", "US-1212", "Washington DC", "New York");
+insert into flight values("1002", "US-1453", "Los Angelis", "San Fransisco");
+insert into flight values("1003", "US-1112", "Florida", "Boston");
+insert into flight values("1004", "US-3222", "Texas", "Georgia");
+insert into flight values("1005", "US-1212", "Arizona", "Colarado");
 
 
 
-
+select * from flight;
 
 create table reservation(PNR varchar(15), TICKET varchar(20), aadhar varchar(20), name varchar(20), nationality varchar(30), flightname varchar(15), flightcode varchar(20), src varchar(30), des varchar(30), ddate varchar(30));
 
 
 
 create table cancel(pnr varchar(20), name varchar(40), cancelno varchar(20), fcode varchar(20), ddate varchar(30));
-
+select * from cancel;
