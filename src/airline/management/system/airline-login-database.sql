@@ -38,4 +38,5 @@ create table reservation(PNR varchar(15), TICKET varchar(20), aadhar varchar(20)
 
 
 create table cancel(pnr varchar(20), name varchar(40), cancelno varchar(20), fcode varchar(20), ddate varchar(30));
-select * from cancel;
+
+
